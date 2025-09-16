@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Account from './Account'
 import HeaderTabMenu from './HeaderTabMenu'
 import HeaderLinks from './HeaderLinks'
+import Logo from '../../public/krea-black.png'
 
 export default function Header() {
   return (
@@ -10,9 +11,9 @@ export default function Header() {
       <div className=' space-x-5 flex '>
        <Image
             aria-hidden
-            src="/k-dark-logo.png"
+            src={Logo}
             alt="Header Logo"
-            width={28}
+            width={38}
             height={22}
           />
           <Account />

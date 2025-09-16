@@ -28,7 +28,7 @@ export default function HeaderTabMenu() {
         <div
           key={index}
           onClick={() => setActiveIndex(index)}
-          className={`px-3 py-2  rounded-md cursor-pointer transition 
+          className={`px-3 py-2 h-fit  rounded-md cursor-pointer transition 
             ${activeIndex === index ? "shadow-md bg-white" : "bg-transparent hover:shadow-sm hover:ring ring-indigo-300"}`}
         >
           {d}
